@@ -1,0 +1,60 @@
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Node modules (se usar ferramentas de build)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Test files
+test-results/
+coverage/
+
+# Build files
+dist/
+build/
+
+# PHP
+composer.phar
+/vendor/
+
+# Zabbix specific
+zabbix_agentd.log
+zabbix_server.log
+
+# Development
+.phpunit.result.cache
